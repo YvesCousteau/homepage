@@ -1,0 +1,22 @@
+[
+  {
+    "link": "https://www.github.com/",
+    "logo": "/github.svg",
+    "title": "github.com"
+  },
+  {
+    "link": "https://www.reddit.com/",
+    "logo": "/reddit.svg",
+    "title": "reddit.com"
+  },
+  {
+    "link": "https://www.twitter.com/",
+    "logo": "/twitter.svg",
+    "title": "reddit.com"
+  },
+  {
+    "link": "https://www.perplexity.ai/",
+    "logo": "/perplexity.svg",
+    "title": "perplexity.ai"
+  }
+]
