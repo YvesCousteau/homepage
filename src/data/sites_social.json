@@ -15,8 +15,18 @@
     "title": "reddit.com"
   },
   {
+    "link": "https://www.twitch.tv/",
+    "logo": "/twitch.svg",
+    "title": "twitch.tv"
+  },
+  {
     "link": "https://www.perplexity.ai/",
     "logo": "/perplexity.svg",
     "title": "perplexity.ai"
+  },
+  {
+    "link": "https://www.amazon.fr/",
+    "logo": "/amazon.svg",
+    "title": "amazon.fr"
   }
 ]
