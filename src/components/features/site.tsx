@@ -8,7 +8,7 @@ export type SiteProps = {
 
 export function SiteComponent({ link, logo, title }: SiteProps) {
   return (
-    <div className="pt-8 pb-4 border-2 bg-foreground text-background text-l border-background hover:border-foreground rounded-xl w-44 h-36">
+    <div className="pt-8 pb-4 px-4 border-2 bg-foreground text-background text-l border-background hover:border-foreground rounded-xl w-44 h-36">
       <a
         className="grid grid-rows-2 justify-items-center gap-2 h-full"
         href={link}
@@ -23,7 +23,9 @@ export function SiteComponent({ link, logo, title }: SiteProps) {
           width={100}
           height={64}
         />
-        <div className="self-center">{title}</div>
+        <div className="self-center overflow-hidden text-ellipsis w-full">
+          {title}
+        </div>
       </a>
     </div>
   );
