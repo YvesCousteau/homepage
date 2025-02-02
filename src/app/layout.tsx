@@ -1,6 +1,8 @@
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import Navbar from "@/components/features/navbar";
+import { ThemeProvider } from "next-themes";
 
 const customFont = localFont({
   src: [
@@ -34,9 +36,12 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${customFont.variable} antialiased dark`}>
-        {children}
+    <html lang="en" suppressHydrationWarning>
+      <body className={`${customFont.variable} antialiased`}>
+        <ThemeProvider attribute="class" defaultTheme="dark">
+          <Navbar />
+          {children}
+        </ThemeProvider>
       </body>
     </html>
   );
