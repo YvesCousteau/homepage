@@ -1,0 +1,17 @@
+[
+  {
+    "link": "https://duckduckgo.com/",
+    "logo": "/duckduckgo.svg",
+    "title": "duckduckgo.com"
+  },
+  {
+    "link": "https://deepl.com/",
+    "logo": "/deepl.svg",
+    "title": "deepl.com"
+  },
+  {
+    "link": "https://www.perplexity.ai/",
+    "logo": "/perplexity.svg",
+    "title": "perplexity.ai"
+  }
+]
