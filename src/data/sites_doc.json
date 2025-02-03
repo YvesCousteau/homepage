@@ -3,5 +3,10 @@
     "link": "https://mozilla.github.io/policy-templates/",
     "logo": "/mozilla.svg",
     "title": "firefox pocicy"
+  },
+  {
+    "link": "https://gist.github.com/rxaviers/7360908",
+    "logo": "/github.svg",
+    "title": "github emojis"
   }
 ]
