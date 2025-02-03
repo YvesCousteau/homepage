@@ -13,5 +13,20 @@
     "link": "https://www.perplexity.ai/",
     "logo": "/perplexity.svg",
     "title": "perplexity.ai"
+  },
+  {
+    "link": "https://www.excalidraw.com/",
+    "logo": "/excalidraw.svg",
+    "title": "excalidraw.com"
+  },
+  {
+    "link": "https://app.diagrams.net/",
+    "logo": "/diagrams.svg",
+    "title": "app.diagrams.net"
+  },
+  {
+    "link": "https://www.figma.com/",
+    "logo": "/figma.svg",
+    "title": "figma.com"
   }
 ]
