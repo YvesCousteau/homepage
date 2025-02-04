@@ -23,5 +23,10 @@
     "link": "https://www.amazon.fr/",
     "logo": "/amazon.svg",
     "title": "amazon.fr"
+  },
+  {
+    "link": "https://www.youtube.com/",
+    "logo": "/youtube.svg",
+    "title": "youtube.com"
   }
 ]
