@@ -12,7 +12,6 @@ export function SiteComponent({ link, logo, title }: SiteProps) {
       <a
         className="grid grid-rows-2 justify-items-center gap-2 h-full w-full"
         href={link}
-        target="_blank"
         rel="noopener noreferrer"
       >
         <Image
