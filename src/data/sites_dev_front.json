@@ -39,5 +39,10 @@
     "link": "https://www.cloudflare.com/",
     "logo": "/cloudflare.svg",
     "title": "cloudflare.com"
+  },
+  {
+    "link": "https://pictogrammers.com/",
+    "logo": "/pictogrammers.svg",
+    "title": "pictogrammers.com"
   }
 ]
