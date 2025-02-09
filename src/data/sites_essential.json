@@ -28,5 +28,10 @@
     "link": "https://www.figma.com/",
     "logo": "/figma.svg",
     "title": "figma.com"
+  },
+  {
+    "link": "https://learnxinyminutes.com/",
+    "logo": "/learnxinyminutes.svg",
+    "title": "learnxinyminutes.com"
   }
 ]
