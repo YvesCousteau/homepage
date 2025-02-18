@@ -8,5 +8,10 @@
     "link": "https://gist.github.com/rxaviers/7360908",
     "logo": "/github.svg",
     "title": "github emojis"
+  },
+  {
+    "link": "https://neovim.io/doc/user/api.html",
+    "logo": "/nvim.svg",
+    "title": "neovim api"
   }
 ]
