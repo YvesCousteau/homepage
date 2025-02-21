@@ -13,5 +13,10 @@
     "link": "https://neovim.io/doc/user/",
     "logo": "/nvim.svg",
     "title": "neovim"
+  },
+  {
+    "link": "https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html",
+    "logo": "/svg.svg",
+    "title": "systemd"
   }
 ]
