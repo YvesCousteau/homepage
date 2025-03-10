@@ -4,7 +4,7 @@ import sitesData_misc from "../../data/sites_misc.json";
 import { SiteSection } from "@/components/features/sites";
 import SitesCore from "@/components/features/sites-core";
 
-export default function Doc() {
+export default function Social() {
   return (
     <SitesCore>
       <SiteSection title="Social" sites={sitesData_social} />
