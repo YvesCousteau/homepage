@@ -19,7 +19,7 @@ export function SiteComponent({ link, logo, title }: SiteProps) {
           aria-hidden
           src={logo}
           alt={logo}
-          width={100}
+          width={64}
           height={64}
         />
         <div className="self-center overflow-hidden text-ellipsis w-full text-center">
