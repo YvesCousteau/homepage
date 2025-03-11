@@ -1,0 +1,17 @@
+[
+  {
+    "link": "https://www.perplexity.ai/",
+    "logo": "/perplexity.svg",
+    "title": "perplexity.ai"
+  },
+  {
+    "link": "https://chatgpt.com/",
+    "logo": "/chatgpt.svg",
+    "title": "chatgpt.com"
+  },
+  {
+    "link": "https://chat.mistral.ai/chat",
+    "logo": "/lechat.svg",
+    "title": "chat.mistral.ai"
+  }
+]

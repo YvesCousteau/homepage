@@ -37,6 +37,9 @@ const Navbar = () => {
         <li className={isActive("/doc") ? "underline underline-offset-4" : ""}>
           <Link href="/doc">Doc</Link>
         </li>
+        <li className={isActive("/tr") ? "underline underline-offset-4" : ""}>
+          <Link href="/tr">To read</Link>
+        </li>
       </ul>
 
       <div className="flex items-center">
@@ -81,6 +84,13 @@ const Navbar = () => {
                 }
               >
                 <Link href="/doc">Doc</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                className={
+                  isActive("/tr") ? "underline underline-offset-4" : ""
+                }
+              >
+                <Link href="/tr">To read</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>
