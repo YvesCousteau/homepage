@@ -1,0 +1,32 @@
+[
+  {
+    "link": "https://nextjs.org",
+    "logo": "/nextjs.svg",
+    "title": "nextjs.org"
+  },
+  {
+    "link": "https://tailwindcss.com/docs/installation/using-vite",
+    "logo": "/tailwindcss.svg",
+    "title": "tailwindcss.com"
+  },
+  {
+    "link": "https://ui.shadcn.com/",
+    "logo": "/shadcn.svg",
+    "title": "shadcn.com"
+  },
+  {
+    "link": "https://vercel.com/",
+    "logo": "/vercel.svg",
+    "title": "vercel.com"
+  },
+  {
+    "link": "https://www.reactbits.dev/",
+    "logo": "/reactbits.svg",
+    "title": "reactbits.dev"
+  },
+  {
+    "link": "https://usehooks.com/",
+    "logo": "/usehooks.svg",
+    "title": "usehooks.com"
+  }
+]

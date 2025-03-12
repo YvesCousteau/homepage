@@ -1,10 +1,5 @@
 [
   {
-    "link": "https://duckduckgo.com/",
-    "logo": "/duckduckgo.svg",
-    "title": "duckduckgo.com"
-  },
-  {
     "link": "https://deepl.com/",
     "logo": "/deepl.svg",
     "title": "deepl.com"
@@ -25,8 +20,13 @@
     "title": "figma.com"
   },
   {
-    "link": "https://learnxinyminutes.com/",
-    "logo": "/learnxinyminutes.svg",
-    "title": "learnxinyminutes.com"
+    "link": "https://www.tinkercad.com/",
+    "logo": "/tinkercad.svg",
+    "title": "tinkercad.com"
+  },
+  {
+    "link": "https://trustpilot.com/",
+    "logo": "/trustpilot.svg",
+    "title": "trustpilot.com"
   }
 ]

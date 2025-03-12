@@ -1,5 +1,7 @@
-import sitesData_dev_back from "../../data/sites_dev_back.json";
-import sitesData_dev_front from "../../data/sites_dev_front.json";
+import back from "../../data/dev/back.json";
+import front from "../../data/dev/front.json";
+import style from "../../data/dev/style.json";
+import helps from "../../data/dev/helps.json";
 
 import { SiteSection } from "@/components/features/sites";
 import SitesCore from "@/components/features/sites-core";
@@ -7,8 +9,10 @@ import SitesCore from "@/components/features/sites-core";
 export default function Dev() {
   return (
     <SitesCore>
-      <SiteSection title="Dev Back" sites={sitesData_dev_back} />
-      <SiteSection title="Dev Front" sites={sitesData_dev_front} />
+      <SiteSection title="Back" sites={back} />
+      <SiteSection title="Front" sites={front} />
+      <SiteSection title="Style" sites={style} />
+      <SiteSection title="Helps" sites={helps} />
     </SitesCore>
   );
 }

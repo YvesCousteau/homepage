@@ -37,8 +37,14 @@ const Navbar = () => {
         <li className={isActive("/doc") ? "underline underline-offset-4" : ""}>
           <Link href="/doc">Doc</Link>
         </li>
+        <li className={isActive("/help") ? "underline underline-offset-4" : ""}>
+          <Link href="/help">Help</Link>
+        </li>
         <li className={isActive("/tr") ? "underline underline-offset-4" : ""}>
           <Link href="/tr">To read</Link>
+        </li>
+        <li className={isActive("/misc") ? "underline underline-offset-4" : ""}>
+          <Link href="/misc">Misc</Link>
         </li>
       </ul>
 
@@ -87,10 +93,24 @@ const Navbar = () => {
               </DropdownMenuItem>
               <DropdownMenuItem
                 className={
+                  isActive("/help") ? "underline underline-offset-4" : ""
+                }
+              >
+                <Link href="/help">Helps</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                className={
                   isActive("/tr") ? "underline underline-offset-4" : ""
                 }
               >
                 <Link href="/tr">To read</Link>
+              </DropdownMenuItem>
+              <DropdownMenuItem
+                className={
+                  isActive("/misc") ? "underline underline-offset-4" : ""
+                }
+              >
+                <Link href="/misc">Misc</Link>
               </DropdownMenuItem>
             </DropdownMenuContent>
           </DropdownMenu>

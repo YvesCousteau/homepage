@@ -21,6 +21,10 @@ export function SiteComponent({ link, logo, title }: SiteProps) {
           alt={logo}
           width={64}
           height={64}
+          onError={(e) => {
+            e.target.onerror = null;
+            e.currentTarget.src = "/svg.svg";
+          }}
         />
         <div className="self-center overflow-hidden text-ellipsis w-full text-center">
           {title}
