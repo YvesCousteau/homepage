@@ -1,5 +1,6 @@
 import back from "../../data/dev/back.json";
 import front from "../../data/dev/front.json";
+import network from "../../data/dev/network.json";
 import style from "../../data/dev/style.json";
 import helps from "../../data/dev/helps.json";
 
@@ -11,6 +12,7 @@ export default function Dev() {
     <SitesCore>
       <SiteSection title="Back" sites={back} />
       <SiteSection title="Front" sites={front} />
+      <SiteSection title="Network" sites={network} />
       <SiteSection title="Style" sites={style} />
       <SiteSection title="Helps" sites={helps} />
     </SitesCore>
