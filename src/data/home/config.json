@@ -8,5 +8,10 @@
     "link": "https://mynixos.com/",
     "logo": "/nixos.svg",
     "title": "mynixos.com"
+  },
+  {
+    "link": "https://noogle.dev/",
+    "logo": "/nixos.svg",
+    "title": "noogle.dev"
   }
 ]
