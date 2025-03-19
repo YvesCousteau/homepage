@@ -18,5 +18,10 @@
     "link": "https://www.freedesktop.org/software/systemd/man/latest/systemd.exec.html",
     "logo": "/svg.svg",
     "title": "systemd"
+  },
+  {
+    "link": "https://nixos.org/guides/nix-pills/",
+    "logo": "/nixos.svg",
+    "title": "nix-pills"
   }
 ]
