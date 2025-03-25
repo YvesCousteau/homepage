@@ -23,5 +23,10 @@
     "link": "https://nixos.org/guides/nix-pills/",
     "logo": "/nixos.svg",
     "title": "nix-pills"
+  },
+  {
+    "link": "https://www.conventionalcommits.org/en/v1.0.0/",
+    "logo": "/svg.svg",
+    "title": "conventional commits"
   }
 ]
